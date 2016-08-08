@@ -1,4 +1,4 @@
 @extends('app') 
  @section('content')
- <h1>Wel</h1>
+ <h1>Welcome</h1>
 @endsection
