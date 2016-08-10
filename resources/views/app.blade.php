@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 	  <meta charset="UTF-8">
-	  <title>Welcome to We Dew Lawns</title>
+	  <title>Welcome</title>
 	  <link rel="stylesheet" href="/css/app.css">
 	</head>
 
@@ -12,5 +12,6 @@
 				@yield('content')
 			</div>
 		</div>
+		
 	</body>
 </html>

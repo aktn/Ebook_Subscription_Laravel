@@ -24,4 +24,4 @@ Route::post('contact',['as'=>'contact_store','uses'=>'contactController@store'])
 Route::get('auth/register','Auth\AuthController@getRegister');
 Route::post('auth/register','Auth\AuthController@postRegister');
 
-//Route::resource('contact','contactController',['only'=>['create','store']]);
+Route::get('auth/login',['as'=>'login','uses'=>'Auth\AuthController@getlogin']);
