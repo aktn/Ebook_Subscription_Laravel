@@ -28,3 +28,5 @@ Route::controllers([
 	'auth'=>'Auth\AuthController',
 	'password'=>'Auth\PasswordController',
 ]);
+
+Route::get('auth/logout','Auth\AuthController@logout');
